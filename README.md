@@ -10,9 +10,9 @@ Simple wrapper around LuaSocket ftp.<br/>
 local ftp = require "ftp"
 
 local f = ftp.new{
-  host = '127.0.0.',
+  host = '127.0.0.1',
   uid  = 'moteus',
-  pwd  = '123',
+  pwd  = '12345',
 }
 
 assert(f:noop())
